@@ -8,6 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
+
+<script>
+window.addEventListener('load', function() {
+    alert('Lembre-se de configurar as margens na hora de impressão para NONE, SEM MARGENS ou NENHUM');
+    self.print();self.close();
+})
+</script>
     <style>
         @page{
     size: 21cm 29.7cm;
@@ -17,7 +24,7 @@
 .containerA4{
     font-family: Arial, Helvetica, sans-serif;
     width: 21cm;
-    height: 29.7cm;
+    height: 28.7cm;
     box-sizing: border-box;
     padding:2.5cm;
     margin: 0 auto;
